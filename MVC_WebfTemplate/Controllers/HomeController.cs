@@ -9,5 +9,9 @@ namespace MVC_WebfTemplate.Controllers
 {
     public class HomeController : ApiController
     {
+        public HomeController()
+        {
+            return this.View();
+        }
     }
 }
