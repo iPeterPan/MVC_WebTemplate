@@ -10,6 +10,15 @@ namespace MVC_WebfTemplate.Controllers
 {
     public class HomeController : ApiController
     {
+        public HomeController()
+        {
+            
+        }
+
+        public ActionResult Index()
+        {
+            return this.View();
+        }
 
         public ActionResult getList()
         {
